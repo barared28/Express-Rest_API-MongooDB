@@ -12,7 +12,7 @@ const BootcampSchema = new mongoose.Schema({
     description: {
         type: String,
         required: true,
-        maxlength: 500
+        maxlength: 1000
     },
     website : {
         type: String,
